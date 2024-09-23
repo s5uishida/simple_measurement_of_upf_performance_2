@@ -87,7 +87,7 @@ The UPFs used are as follows.
   gtp5g v0.8.10 (2024.06.03) - https://github.com/free5gc/gtp5g
 
 Each VMs are as follows.
-| VM | SW & Role | IP address | OS | CPU | Memory | HDD |
+| VM | SW & Role | IP address | OS | CPU | Mem | HDD |
 | --- | --- | --- | --- | --- | --- | --- |
 | VM1 | Open5GS 5GC C-Plane | 192.168.0.111/24 | Ubuntu 24.04 | 1 | 2GB | 20GB |
 | **VM-UP** | **each UPF U-Plane**  | **192.168.0.151/24** | **Ubuntu 24.04<br>or 22.04** | **2** | **8GB** | **20GB** |
