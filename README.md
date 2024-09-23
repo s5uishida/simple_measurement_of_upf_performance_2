@@ -1655,7 +1655,7 @@ rtt min/avg/max/mdev = 1.142/1.293/1.480/0.097 ms
 
 </details>
 
-<details><summary>e. Ping and iPerf3 logs for free5GC UPF v3.4.3</summary>
+<details><summary>e. Ping and iPerf3 logs for free5GC UPF v1.2.3</summary>
 
 ```
 # iperf3 -c 192.168.16.152
