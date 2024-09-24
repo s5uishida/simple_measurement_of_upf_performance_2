@@ -547,7 +547,7 @@ There is no change.
 
 See [here](https://github.com/s5uishida/install_osmoupf#create-configuration-file) for the original file.
 
-- `osmocom/osmo-upf.cfg`
+- `osmocom/osmo-upf.cfg`  
 There is no change.
 
 <a id="changes_up_e"></a>
