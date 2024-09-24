@@ -82,7 +82,7 @@ The UPFs used are as follows.
 - Open5GS UPF v2.7.2 (2024.09.04) - https://github.com/open5gs/open5gs
 - UPG-VPP v1.13.0 (2024.03.25) - https://github.com/travelping/upg-vpp
 - eUPF v0.6.4 (2024.05.01) - https://github.com/edgecomllc/eupf
-- OsmoUPF v0.1.1.109 (2024.09.22) - https://gitea.osmocom.org/cellular-infrastructure/osmo-upf
+- OsmoUPF v0.1.1.109 (2024.08.16) - https://gitea.osmocom.org/cellular-infrastructure/osmo-upf
 - free5GC UPF (go-upf) v1.2.3 (2024.05.11) - https://github.com/free5gc/go-upf  
   gtp5g v0.8.10 (2024.06.03) - https://github.com/free5gc/gtp5g
 
@@ -168,7 +168,7 @@ Please refer to the following for building Open5GS, free5GC, UPFs and PacketRush
 - free5GC v3.4.3 (2024.09.12) - https://free5gc.org/guide/
 - UPG-VPP v1.13.0 (2024.03.25) - https://github.com/s5uishida/install_vpp_upf_dpdk#annex_1
 - eUPF v0.6.4 (2024.05.01) - https://github.com/s5uishida/install_eupf
-- OsmoUPF v0.1.1.109 (2024.09.22) - https://github.com/s5uishida/install_osmoupf
+- OsmoUPF v0.1.1.109 (2024.08.16) - https://github.com/s5uishida/install_osmoupf
 - free5GC UPF (go-upf) v1.2.3 (2024.05.11) - https://free5gc.org/guide/
 - PacketRusher 20240521 (2024.06.24) - https://github.com/HewlettPackard/PacketRusher/wiki
 
@@ -787,7 +787,7 @@ Please refer to the following for building Open5GS, free5GC, UPFs and PacketRush
 - free5GC v3.4.3 (2024.09.12) - https://free5gc.org/guide/
 - UPG-VPP v1.13.0 (2024.03.25) - https://github.com/s5uishida/install_vpp_upf_dpdk#annex_1
 - eUPF v0.6.4 (2024.05.01) - https://github.com/s5uishida/install_eupf
-- OsmoUPF v0.1.1.109 (2024.09.22) - https://github.com/s5uishida/install_osmoupf
+- OsmoUPF v0.1.1.109 (2024.08.16) - https://github.com/s5uishida/install_osmoupf
 - free5GC UPF (go-upf) v1.2.3 (2024.05.11) - https://free5gc.org/guide/
 - PacketRusher 20240521 (2024.06.24) - https://github.com/HewlettPackard/PacketRusher/wiki
 
@@ -1102,7 +1102,7 @@ These measurements are the values measured between the IP address `10.45.0.0/16`
 | a-2 | Open5GS UPF v2.7.2 (TAP) | 2024.09.04 | S:238 Mbps<br>R:237 Mbps | S:500 Mbps<br>R:356 Mbps | 30% | 1.609 |
 | b | UPG-VPP v1.13.0 | 2024.03.25 | S:920 Mbps<br>R:911 Mbps | S:500 Mbps<br>R:412 Mbps | 17% | 0.436 |
 | c | **4) eUPF v0.6.4** | 2024.05.01 | S:277 Mbps<br>R:274 Mbps | S:500 Mbps<br>R:394 Mbps | 21% | 1.387 |
-| d | OsmoUPF v0.1.1.109 | 2024.09.22 | S:177 Mbps<br>R:176 Mbps | S:500 Mbps<br>R:316 Mbps | 37% | 1.363 |
+| d | OsmoUPF v0.1.1.109 | 2024.08.16 | S:177 Mbps<br>R:176 Mbps | S:500 Mbps<br>R:316 Mbps | 37% | 1.363 |
 
 <details><summary>a-1. Ping and iPerf3 logs for Open5GS UPF v2.7.2 (TUN)</summary>
 
@@ -1444,7 +1444,7 @@ rtt min/avg/max/mdev = 1.157/1.363/1.565/0.111 ms
 | --- | --- | --- | --- | --- | --- | --- |
 | b | UPG-VPP v1.13.0 | 2024.03.25 | S:895 Mbps<br>R:888 Mbps | S:500 Mbps<br>R:437 Mbps | 12% | 0.510 |
 | c | **4) eUPF v0.6.4** | 2024.05.01 | S:256 Mbps<br>R:251 Mbps | S:500 Mbps<br>R:374 Mbps | 24% | 1.376 |
-| d | OsmoUPF v0.1.1.109 | 2024.09.22 | S:190 Mbps<br>R:186 Mbps | S:500 Mbps<br>R:333 Mbps | 33% | 1.293 |
+| d | OsmoUPF v0.1.1.109 | 2024.08.16 | S:190 Mbps<br>R:186 Mbps | S:500 Mbps<br>R:333 Mbps | 33% | 1.293 |
 | e | free5GC UPF v1.2.3 | 2024.05.11 | S:271 Mbps<br>R:266 Mbps | S:500 Mbps<br>R:275 Mbps | 46% | 1.353 |
 
 <details><summary>b. Ping and iPerf3 logs for UPG-VPP v1.13.0</summary>
