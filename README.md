@@ -841,14 +841,7 @@ See [this](https://github.com/s5uishida/install_eupf#run).
 
 #### d. Run OsmoUPF
 
-```
-# cd osmocom
-# osmo-upf -c osmo-upf.cfg
-```
-Then, set the routing to the `<Data Network>=10.45.0.0/16` for the `<GTP Device>=upf`.
-```
-# ip route add 10.45.0.0/16 dev upf
-```
+See [this](https://github.com/s5uishida/install_osmoupf#run).
 
 <a id="run_up_e"></a>
 
