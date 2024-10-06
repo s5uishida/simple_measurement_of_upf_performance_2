@@ -3,7 +3,7 @@ This describes simple performance measurements of several open source UPFs by us
 For this measurement, [OsmoUPF](https://gitea.osmocom.org/cellular-infrastructure/osmo-upf) was added since [previous measurement](https://github.com/s5uishida/simple_measurement_of_upf_performance).
 PacketRusher is also featured on [HPE Developer Blog](https://developer.hpe.com/blog/open-sourcing-packetrusher-a-5g-core-performance-tester/).
 
-**Note. This is a very simple measurement, and according to [the comment](https://github.com/open5gs/open5gs/discussions/1780#discussioncomment-10853290), it doesn't seem to make much sense to measure between Virtualbox VMs. I hope it will serve as a reference for a simple configuration when measuring on actual devices.**
+**Note. This is a very simple measurement, and according to [the comment](https://github.com/open5gs/open5gs/discussions/1780#discussioncomment-10853290), it doesn't seem to make much sense to measure between Virtualbox VMs. I hope it will serve as a reference for a simple configuration when measuring on real devices.**
 
 ---
 
